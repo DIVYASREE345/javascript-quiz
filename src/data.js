@@ -176,9 +176,8 @@ const quizData = {
         href: 'https://www.javatpoint.com/javascript-mcq',
       },
      ],
-       
-   },
-<<<<< << data
-
+    },
+  ],
+};
 
 
