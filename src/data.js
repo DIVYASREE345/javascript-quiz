@@ -65,19 +65,7 @@ const quizData = {
            b: 'alertBox ("Hello World")',
            c: 'alert ("Hello World")',
         },
-        },
-      ],
-    },
-
-    {
-        text: 'How do you write "Hello World" in an alert box?',
-        answers: {
-           a: 'msgBox ("Hello World")',
-           b: 'alertBox ("Hello World")',
-           c: 'alert ("Hello World")',
-        },
-
-       correctAnswer:'c',
+        correctAnswer: 'a',
        resource: [
         {
           text: 'www.w3schools.com',
@@ -141,7 +129,7 @@ const quizData = {
       b: 'Data types',
       c: 'Declaration statements',
         },
-     correctAnswer: 'c'
+     correctAnswer: 'c',
       resource: [
     {
       text: 'javascript.info',
@@ -217,6 +205,5 @@ const quizData = {
     },
   ],
 };
-
 
 
