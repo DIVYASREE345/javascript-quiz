@@ -65,6 +65,18 @@ const quizData = {
            b: 'alertBox ("Hello World")',
            c: 'alert ("Hello World")',
         },
+        },
+      ],
+    },
+
+    {
+        text: 'How do you write "Hello World" in an alert box?',
+        answers: {
+           a: 'msgBox ("Hello World")',
+           b: 'alertBox ("Hello World")',
+           c: 'alert ("Hello World")',
+        },
+
        correctAnswer:'c',
        resource: [
         {
@@ -129,6 +141,35 @@ const quizData = {
       b: 'Data types',
       c: 'Declaration statements',
         },
+        },
+      ],
+  },
+
+{
+  text: 'Which of the following is the definition for debugging?',
+  answer: {
+     a: 'Finding bugs',
+     b: 'Fixing bugs',
+     c: 'Both Finding & Fixing bugs',
+     d: 'Clearing bugs',
+      },
+   correctAnswer: 'c',
+   resource: [
+    {
+      text: 'javascript.info',
+      href: 'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette',
+    },
+      ],
+ 
+     },
+     {
+      text: 'The "function" and " var" are known as?',
+      answer: {
+      a: 'Keywords',
+      b: 'Data types',
+      c: 'Declaration statements',
+      d: 'Prototypes'
+        },
        correctAnswer: 'c',
        resource: [
         {
@@ -159,7 +200,7 @@ const quizData = {
         answer: {
           a: 'Both x and y are equal in value, type and reference address as well',
           b: 'Both are x and y are equal in value only',
-          c: 'Both are equal in the value and data type',
+          c: 'Both are equal in the value and data type'
             },
          correctAnswer: 'c',
          resource: [
@@ -171,3 +212,6 @@ const quizData = {
     },
   ],
 };
+};
+
+
