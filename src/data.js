@@ -141,7 +141,12 @@ const quizData = {
       b: 'Data types',
       c: 'Declaration statements',
         },
-        },
+     correctAnswer: 'c'
+      resource: [
+    {
+      text: 'javascript.info',
+      href: 'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette',
+    },
       ],
   },
 
