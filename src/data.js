@@ -151,7 +151,7 @@ const quizData = {
      a: 'Finding bugs',
      b: 'Fixing bugs',
      c: 'Both Finding & Fixing bugs',
-     d: 'Clearing bugs',
+  
       },
    correctAnswer: 'c',
    resource: [
@@ -168,7 +168,7 @@ const quizData = {
       a: 'Keywords',
       b: 'Data types',
       c: 'Declaration statements',
-      d: 'Prototypes'
+     
         },
        correctAnswer: 'c',
        resource: [
