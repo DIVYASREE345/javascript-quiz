@@ -48,7 +48,6 @@ const quizData = {
         a: 'var carName',
         b: 'v carName',
         c: 'variable carName',
-        d: 'VariaBle carName',
       },
        correctAnswer: 'a',
        resource: [
@@ -65,8 +64,19 @@ const quizData = {
            a: 'msgBox ("Hello World")',
            b: 'alertBox ("Hello World")',
            c: 'alert ("Hello World")',
-           d: 'msg ("Hello World")',
         },
+        },
+      ],
+    },
+
+    {
+        text: 'How do you write "Hello World" in an alert box?',
+        answers: {
+           a: 'msgBox ("Hello World")',
+           b: 'alertBox ("Hello World")',
+           c: 'alert ("Hello World")',
+        },
+
        correctAnswer:'c',
        resource: [
         {
@@ -82,7 +92,6 @@ const quizData = {
             a: 'interface',
             b: 'program',
             c: 'throws',
-            d: 'typeof'
           },
        correctAnswer: 'b',
        resource: [
@@ -99,13 +108,39 @@ const quizData = {
        a: 'Error',
        b: 'Bug',
        c: 'Mistake',
-       d: 'Debug',
       },
        correctAnswer: 'b',
        resource: [
         {
           text: 'javascript.info',
           href: 'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette',
+        },
+      ],
+  },
+
+{
+  text: 'Which of the following is the definition for debugging?',
+  answer: {
+     a: 'Finding bugs',
+     b: 'Fixing bugs',
+     c: 'Both Finding & Fixing bugs',
+      },
+   correctAnswer: 'c',
+   resource: [
+    {
+      text: 'javascript.info',
+      href: 'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette',
+    },
+      ],
+ 
+     },
+     {
+      text: 'The "function" and " var" are known as?',
+      answer: {
+      a: 'Keywords',
+      b: 'Data types',
+      c: 'Declaration statements',
+        },
         },
       ],
   },
@@ -150,7 +185,6 @@ const quizData = {
             a: 'Tools',
             b: 'Help',
             c: 'File',
-            d: 'Edit',
               },
            correctAnswer: 'a',
            resource: [
@@ -166,8 +200,7 @@ const quizData = {
         answer: {
           a: 'Both x and y are equal in value, type and reference address as well',
           b: 'Both are x and y are equal in value only',
-          c: 'Both are equal in the value and data type',
-          d: 'Both are not same at all',
+          c: 'Both are equal in the value and data type'
             },
          correctAnswer: 'c',
          resource: [
@@ -178,6 +211,7 @@ const quizData = {
      ],
     },
   ],
+};
 };
 
 
