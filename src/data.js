@@ -217,6 +217,6 @@ const quizData = {
     },
   ],
 };
-};
+
 
 
