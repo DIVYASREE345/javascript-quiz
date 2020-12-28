@@ -5,9 +5,11 @@
 
     <meta charset="UTF-8">
     <title>your project name</title>
+<link href="./public/style.css" rel="stylesheet" />
 
 
-    <link href="./public/style.css" rel="stylesheet" />
+
+
 </head>
 
         <body>
@@ -30,7 +32,7 @@
                     <article class="question">
                         <div class="invisible">Question</div>
                         <div>
-                            <p class="text" id="question">Who invented JavaScript?</p>
+                            <p class="text" id="question"></p>
                         </div>
                     </article>
                     <!--ANSWERS-->
@@ -54,7 +56,7 @@
                     <h2 class="invisible">Modify</h2>
                     <div class="modify-buttons"><button id="next">Next</button></div>
                     <div class="modify-buttons"><button id="cheat">Cheat</button></div>
-                    <div class="modify-buttons"><button id="learn-more">Learn</button></div>
+                    <div class="modify-buttons"><a id='learn'>Learn</a></div>
                 </section>
             </div>
          
@@ -63,10 +65,25 @@
             write your code above this script tag  -->
 
             <script type="module" src="./src/init/index.js"></script>
+            <script src='./lib/describe-it.js'></script>
 
+            <!-- load the logging dependency -->
+            <script src='./lib/deep-clone.js'></script>
+            
+            <!-- load src files -->
+            <script src='./src/data.js'></script>
+            
+            <script src='./src/init/init.js'></script>
             <!-- load the review buttons for your live deployment  -->
             <script type="module" src="./lib/review-buttons.js"></script>
-
+            <script src="./src/handlers/get-newQuestion.js"></script>
+            <script src="./src/handlers/show-answers.js"></script>
+            <script src="./src/listeners/get-newQuestion.js"></script>
+            <script src="/src/listeners/show-answers.js"></script>
+            <script src="src/handlers/cheat-button.js"></script>
+            <script src="src/listeners/cheat-button.js"></script>
+            <script src="src/logic/get-currentQuestion.js"></script>
+            <script src="src/logic/get-answer.js"></script>
         </body>
 
 </html>
