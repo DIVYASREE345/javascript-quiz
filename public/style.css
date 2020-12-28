@@ -114,13 +114,13 @@
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
-     
+     color: #FC7E09;
    }
    .modify-buttons a:hover {
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
- 
+     color: #FC7E09;
    }
  /* SCORE */
  .score {
@@ -172,7 +172,7 @@
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
-     
+     color: #FC7E09;
    }
  
  
