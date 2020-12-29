@@ -15,6 +15,8 @@
   - [get-newQuestion.js](#srclistenersget-newQuestionjs)
   - [start-button.js](#srclistenersstart-buttonjs)
 - [logic](#logic)
+  - [get-CurrentQuestion.js](#srclogicget-CurrentQuestionjs)
+  - [get-answer.js](#srclogicget-answerjs)
 - [views](#views)
 - [data.js](#srcdatajs)
 
@@ -91,6 +93,27 @@ Logic functions will _never_ ...
 - use events
 - use prompt/alert/confirm
 - use data that is not passed as a parameter
+
+---
+
+### [./src/logic/get-CurrentQuestion.js](./src/logic/get-CurrentQuestion.js?study)
+
+---
+
+### [./src/logic/get-answer.js](./src/logic/get-answer.js?study)
+
+<a name="getAnswer"></a>
+
+## getAnswer(correctAnswer, answerArray) ⇒ <code>number</code>
+
+returns one random incorrect answers from the answers array
+
+**Returns**: <code>number</code> - an index of incorrect answer
+
+| Param         | Type                              | Description                                 |
+| ------------- | --------------------------------- | ------------------------------------------- |
+| correctAnswer | <code>number</code>               | correct answer of the current question      |
+| answerArray   | <code>Array.&lt;string&gt;</code> | an array of answers to the current question |
 
 [TOP](#DOCS)
 
