@@ -7,11 +7,13 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
+  - [cheat-button.js](#srchandlerscheat-buttonjs)
   - [get-newQuestion.js](#srchandlersget-newQuestionjs)
   - [start-button.js](#srchandlersstart-buttonjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
+  - [cheat-button.js](#srclistenerscheat-buttonjs)
   - [get-newQuestion.js](#srclistenersget-newQuestionjs)
   - [start-button.js](#srclistenersstart-buttonjs)
 - [logic](#logic)
@@ -35,6 +37,10 @@ Handler function define user interactions. They will:
 - process user data with logic functions
 - update the DOM to show changes to the user
 - log any important information for developers
+
+---
+
+### [./src/handlers/cheat-button.js](./src/handlers/cheat-button.js?study)
 
 ---
 
@@ -67,6 +73,10 @@ Handler function define user interactions. They will:
 Event listeners are used to connect handler functions to user interactions with the DOM.
 
 You can use the same handler in many different listeners, or add more than one listeners to the same DOM element.
+
+---
+
+### [./src/listeners/cheat-button.js](./src/listeners/cheat-button.js?study)
 
 ---
 
