@@ -7,10 +7,12 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
+  - [get-newQuestion.js](#srchandlersget-newQuestionjs)
   - [start-button.js](#srchandlersstart-buttonjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
+  - [get-newQuestion.js](#srclistenersget-newQuestionjs)
   - [start-button.js](#srclistenersstart-buttonjs)
 - [logic](#logic)
 - [views](#views)
@@ -31,6 +33,10 @@ Handler function define user interactions. They will:
 - process user data with logic functions
 - update the DOM to show changes to the user
 - log any important information for developers
+
+---
+
+### [./src/handlers/get-newQuestion.js](./src/handlers/get-newQuestion.js?study)
 
 ---
 
@@ -59,6 +65,10 @@ Handler function define user interactions. They will:
 Event listeners are used to connect handler functions to user interactions with the DOM.
 
 You can use the same handler in many different listeners, or add more than one listeners to the same DOM element.
+
+---
+
+### [./src/listeners/get-newQuestion.js](./src/listeners/get-newQuestion.js?study)
 
 ---
 
@@ -109,29 +119,6 @@ VIEW functions will _never_ ...
 ---
 
 ## [./src/data.js](./src/data.js?study)
-
-## Constants
-
-<dl>
-<dt><a href="#data">data</a></dt>
-<dd><p>data that is saved and used between user interactions</p>
-</dd>
-<dt><a href="#quizData">quizData</a></dt>
-<dd></dd>
-</dl>
-
-<a name="data"></a>
-
-## data
-
-data that is saved and used between user interactions
-
-**Properties**
-
-| Name      | Type                              | Description                          |
-| --------- | --------------------------------- | ------------------------------------ |
-| separator | <code>string</code>               | the full user artwork                |
-| lines     | <code>Array.&lt;string&gt;</code> | all the lines that have been entered |
 
 <a name="quizData"></a>
 

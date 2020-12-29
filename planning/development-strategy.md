@@ -151,7 +151,7 @@ This is a simple website in which users can check their JS knowledge by taking a
 
 ## 4. Get Feedback
 
-> assigned to Krystyna and Divya
+> assigned to Krystyna 
 
 **As a user I want to know the correct answers for incorrect questions**
 
