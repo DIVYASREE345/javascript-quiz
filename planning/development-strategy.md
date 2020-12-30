@@ -84,7 +84,7 @@ This is a simple website in which users can check their JS knowledge by taking a
 
 ## 2. Begin the Quiz
 
-> assigned to Rafael
+> assigned to Rafael and Brain
 
 **As a user I want to see the  question with related answers**
 
