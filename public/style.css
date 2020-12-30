@@ -79,9 +79,8 @@
      display: flex;
      justify-content: space-evenly;
      flex-direction: row;
-     margin-right: 64%;
-     margin-top:5%;
-    
+     margin-bottom: 50px;
+ 
  }
  .modify {
     padding: 80px;
@@ -115,19 +114,19 @@
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
-     color: #FC7E09;
+     
    }
    .modify-buttons a:hover {
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
-     color: #FC7E09;
+ 
    }
  /* SCORE */
  .score {
      position: absolute;
      top: 8%;
-     right:60%;
+     right: 60%;
      color: #F9E325;
      background-color:#FC7E09;
      font-size: 20px;
@@ -168,16 +167,13 @@
      border-radius: 50px;
      
  }
- 
- /* commented out because it causes confusion in visual representation
+  /* commented out because it causes confusion in visual representation
  .btn:hover {
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
-     color: #FC7E09;
-   }
- */
- 
+     
+   } */
  .btn:focus, .btn:active,
  .start-button:focus, .start-button:active {
      outline: none !important;
