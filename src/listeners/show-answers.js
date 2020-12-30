@@ -1,5 +1,5 @@
 'use strict';
-console.log('--- loading listener: display answers.js');
+
 
 
 // Show the correct answer and score for user 
