@@ -9,12 +9,14 @@
 - [handlers](#handlers)
   - [cheat-button.js](#srchandlerscheat-buttonjs)
   - [get-newQuestion.js](#srchandlersget-newQuestionjs)
+  - [show-answers.js](#srchandlersshow-answersjs)
   - [start-button.js](#srchandlersstart-buttonjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
   - [cheat-button.js](#srclistenerscheat-buttonjs)
   - [get-newQuestion.js](#srclistenersget-newQuestionjs)
+  - [show-answers.js](#srclistenersshow-answersjs)
   - [start-button.js](#srclistenersstart-buttonjs)
 - [logic](#logic)
   - [get-CurrentQuestion.js](#srclogicget-CurrentQuestionjs)
@@ -45,6 +47,10 @@ Handler function define user interactions. They will:
 ---
 
 ### [./src/handlers/get-newQuestion.js](./src/handlers/get-newQuestion.js?study)
+
+---
+
+### [./src/handlers/show-answers.js](./src/handlers/show-answers.js?study)
 
 ---
 
@@ -81,6 +87,10 @@ You can use the same handler in many different listeners, or add more than one l
 ---
 
 ### [./src/listeners/get-newQuestion.js](./src/listeners/get-newQuestion.js?study)
+
+---
+
+### [./src/listeners/show-answers.js](./src/listeners/show-answers.js?study)
 
 ---
 
