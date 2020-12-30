@@ -79,8 +79,9 @@
      display: flex;
      justify-content: space-evenly;
      flex-direction: row;
-     margin-bottom: 50px;
- 
+     margin-right: 64%;
+     margin-top:5%;
+    
  }
  .modify {
     padding: 80px;
@@ -125,8 +126,8 @@
  /* SCORE */
  .score {
      position: absolute;
-     top: 5%;
-     right: 45%;
+     top: 8%;
+     right:60%;
      color: #F9E325;
      background-color:#FC7E09;
      font-size: 20px;
@@ -168,13 +169,14 @@
      
  }
  
+ /* commented out because it causes confusion in visual representation
  .btn:hover {
      transition: 1s ease-in-out;
      background: #4F95DA;
      cursor: pointer;
      color: #FC7E09;
    }
- 
+ */
  
  .btn:focus, .btn:active,
  .start-button:focus, .start-button:active {
@@ -184,7 +186,7 @@
  
  /* Correct and incorrect answers */
  .correct {
-     background-color:#FC7E09;
+     background-color:green;
  }
  
  .incorrect  {
