@@ -46,6 +46,21 @@ const quizData = {
       resource:"https://firebearstudio.com/blog/the-best-javascript-package-managers.html"
     },
     {
+      
+        text: 'How do you write "Hello World" in an alert box?',
+        answers: {
+           a: 'msgBox ("Hello World")',
+           b: 'alertBox ("Hello World")',
+           c: 'alert ("Hello World")',
+        },
+        correctAnswer: 'a',
+       resource: [
+        {
+          text: 'www.w3schools.com',
+          href: 'https://www.w3schools.com/quiztest/result.asp',
+        },
+      ],
+
       text: "Which tool can you use to ensure code quality?",
       answers: [
         "Angular",
@@ -85,6 +100,23 @@ const quizData = {
         "code",
         "const"
       ],
+ 
+     },
+     {
+      text: 'The "function" and " var" are known as?',
+      answer: {
+      a: 'Keywords',
+      b: 'Data types',
+      c: 'Declaration statements',
+        },
+     correctAnswer: 'c',
+      resource: [
+    {
+      text: 'javascript.info',
+      href: 'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette',
+    },
+      ],
+  };
       correctAnswer: 0,
       resource:"https://www.w3schools.com/js/js_whereto.asp"
 
@@ -106,6 +138,8 @@ const quizData = {
       'Bug',
       'Mistake'
   ],
+
+};
      correctAnswer: 1,
      resource:'https://www.sanfoundry.com/javascript-mcqs-forms-debugging/#google_vignette'
       },
@@ -143,3 +177,4 @@ const quizData = {
     
 ],
 };
+
