@@ -76,6 +76,9 @@
  }
  article.answers,
  .userInfo {
+     margin-right: 64%;
+     margin-top:5%;
+     margin-bottom: 5%;
      display: flex;
      justify-content: space-evenly;
      flex-direction: row;
